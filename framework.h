@@ -1,0 +1,42 @@
+#pragma once
+
+#include <windows.h>
+#include <stdlib.h>
+#include <malloc.h>
+#include <memory.h>
+#include <tchar.h>
+#include "stdio.h"
+#include "commdlg.h"
+#include <tchar.h>
+#include <algorithm>
+#include <exception>
+#include <fstream>
+#include <sstream>
+#include <vector>
+#include <iostream>
+#include <iterator>
+#include <memory>
+#include <string>
+#include <codecvt>
+#include <locale>
+#include <string>
+#include <codecvt>
+#include <locale>
+#include <algorithm>
+#include <exception>
+#include <fstream>
+#include <sstream>
+#include <vector>
+#include <iostream>
+#include <iterator>
+#include <memory>
+#include <vector>
+#include <codecvt>
+#include <chrono>
+#include <shlwapi.h>
+#include <stddef.h>
+#include <chrono>
+#include <thread>
+#include "resource.h"
+
+#define WINDOWS_MAIN_ENTRY int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow)
